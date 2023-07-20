@@ -14,15 +14,15 @@ Diese Skript ermöglicht das automatische Ausfüllen des Formulars [Stundennachw
 3.  Anpassen von `personalData.json`
     ```json
     {
-    "Projekt": "X",
-    "NameVorname": "Doe, John",
-    "Sprecher": "Martin Max",
-    "Geboren am": "04.05.1904",
-    "BereichProjektleiterin": "Mr. X",
-    "VertragsNr": "62271",
-    "vertrag_von": "01.01",
-    "vertrag_bis": "30.07",
-    " Urlaubsstd": null
+    "(Projekt)": "X",
+    "(NameVorname)": "Doe, John",
+    "(Sprecher)": "Martin Max",
+    "(Geboren am)": "04.05.1904",
+    "(BereichProjektleiterin)": "Mr. X",
+    "(VertragsNr)": "62271",
+    "(vertrag_von)": "01.01",
+    "(vertrag_bis)": "30.07",
+    "( Urlaubsstd)": null
     }
     ```
 4. Optional: Anpassung von fixen Arbeitstagen in `fixedDays.json`:
