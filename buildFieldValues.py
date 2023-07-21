@@ -56,8 +56,8 @@ def addDays(LUNCH):
             endDT = datetime.datetime.strptime(end, "%H:%M") 
             # Errechne die Diffenz zwischen Start und Ende
             diff = endDT - startDT
-            # Addiere die Mittagspause
-            diff = diff + datetime.timedelta(minutes=LUNCH)
+            # Subtrahiere die Mittagspause
+            diff = diff - datetime.timedelta(minutes=LUNCH)
             # Errechne die Dezimalstunden auf zwei Nachkommastellen gerundet
             decimalHours = str(round(diff.seconds / 3600, 2)).replace(".", ",")
             # Füge die Dezimalstunden dem Dictionary hinzu
