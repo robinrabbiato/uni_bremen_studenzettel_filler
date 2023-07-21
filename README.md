@@ -55,7 +55,7 @@ Die Pause wird von den geleisteten Stunden abgezogen.
 Wir beispielsweise von 09:00 Uhr bis 17:30 Uhr gearbeitet und eine Pause von 30 Minuten angegeben, beträgt die ausgewiesene Arbeitszeit 8 Stunden. 
 
 ```bash
-python3 script.py -i input.pdf -o output.pdf -m 7 -y 2023 -l 30
+python3 filler.py -i input.pdf -o output.pdf -m 7 -y 2023 -l 30
 ```
 
 ## Öffnen der Ausgabe 
